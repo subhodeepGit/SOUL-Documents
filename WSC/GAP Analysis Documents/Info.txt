@@ -1,0 +1,1 @@
+This folder contains GAP analysis document for WSC project
