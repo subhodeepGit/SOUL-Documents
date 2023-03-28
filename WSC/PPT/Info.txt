@@ -1,0 +1,1 @@
+This folder contain PPT prepared and presented to WSC during demo of base system
