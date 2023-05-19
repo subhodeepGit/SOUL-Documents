@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2023-04-05T05:26:32.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="jfirxh1qzooMDLiWoQTc" version="21.1.4" type="device">
+  <diagram name="Page-1" id="RtX7O3aUDO1mknOpod4m">
+    <mxGraphModel dx="2227" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZKevlM1vEIPRT6mVdrC--1" target="ZKevlM1vEIPRT6mVdrC--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--1" value="Clearance Master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKevlM1vEIPRT6mVdrC--2" target="ZKevlM1vEIPRT6mVdrC--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--2" value="Student Clearance Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZKevlM1vEIPRT6mVdrC--3" target="ZKevlM1vEIPRT6mVdrC--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--3" value="Applicant" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--7" value="Status" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="240" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--8" value="Student Clearance Approved" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZKevlM1vEIPRT6mVdrC--7">
+          <mxGeometry x="25" y="75" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--9" value="Applicant will apply by selecting their Name on the application form and other details will be autofetched." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--10" value="On save of the application will be then available for action from Department heads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKevlM1vEIPRT6mVdrC--12" target="ZKevlM1vEIPRT6mVdrC--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZKevlM1vEIPRT6mVdrC--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--12" value="Clearance by department heads" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--14" value="If all the department grant the Cleared status, the application for clearance will be approved and notified to the applicant." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="270" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--17" value="Status" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="480" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--18" value="Student Clearance Pending" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZKevlM1vEIPRT6mVdrC--17">
+          <mxGeometry x="25" y="75" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--19" value="If any pending dues against student, the application updates with the comments will be emailed to applicant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--20" value="Here the admin user will maintain the User disable date and the list of departments which will give clearance for every academic year" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKevlM1vEIPRT6mVdrC--23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="275" width="1080" height="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
